@@ -1,0 +1,7 @@
+NaughtCoin -> nasledjuje ERC20 sto znaci da ima implementirane approval i transferTo, preko njih zaobici waiting period
+
+Privacy -> radi se u konzoli, ako ima poredjanih nekoliko promenljivih koji su zajedno manji od 32 bajta oni ce se grupisati u jedan slot, preko toga se moze izvuci bilo sta + sve je public na blockchainu
+
+Denial -> uraditi netacan assert i fallback funkciji na malicioznom kontraktu, potrosice sav gas i nece moci da se nastavi funkcija
+
+Recovery -> preko etherscana naci gde su pare otisle, dobijemo adresu uradimo selfdestruct
